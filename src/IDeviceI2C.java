@@ -3,4 +3,8 @@
  */
 public interface IDeviceI2C {
     public SensorSet GetSensorData();
+    public int GetDeviceAddress();
+    public void SetDeviceAddress(int address);
+    public String GetDeviceName();
+    public void SetDeviceName(String name);
 }
