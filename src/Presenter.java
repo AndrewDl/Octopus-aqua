@@ -8,5 +8,7 @@ public class Presenter implements IPresenter{
     public Presenter(IModel model, IView view){
         OctopusLogic = model;
         View = view;
+
+        OctopusLogic.Start();
     }
 }
